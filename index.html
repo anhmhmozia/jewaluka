@@ -168,6 +168,22 @@
             font-size: 19px;
             font-weight: 400;
         }
+        .info-section {
+            font-size: 21px;
+        }
+        .info-section h2 {
+            font-size: 56px;
+            line-height: 72px;
+            font-weight: 700;
+            margin-bottom: 40px;
+        }
+        .info-item {
+            margin-bottom: 30px;
+            padding-left: 30px;
+        }
+        .info-item:last-child {
+            margin-bottom: 0;
+        }
     </style>
 </head>
 <body>
@@ -338,18 +354,29 @@
             <h2>Company Information</h2>
             <div class="row">
                 <div class="col-md-6">
-                    <iframe src="https://maps.google.com/maps?q=Roppongi%20Hills&t=&z=13&ie=UTF8&iwloc=&output=embed" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    <iframe src="https://maps.google.com/maps?q=Roppongi%20Hills&t=&z=13&ie=UTF8&iwloc=&output=embed" width="100%" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    <span style="font-size: 17px; display: block; margin-top: 10px; font-style: italic;">Our office is conveniently located in the heart of Tokyo's business district, in the prestigious Roppongi Hills Mori Tower.</span>
                 </div>
                 <div class="col-md-6">
-                    <p>Company Name: Jewaluka Inc.<br>CEO: Shigehiro Yabuuchi<br>Address: Roppongi Hills Mori Tower 18F 6-10-1 Roppongi, Minato-ku Tokyo 106-6116, Japan<br>Japan Phone/Fax: +81-3-6772-3723</p>
+                    <div class="info-item">
+                        <strong>Company Name: Jewaluka Inc.</strong><br/>
+                        CEO: Shigehiro Yabuuchi
+                    </div>
+                    <div class="info-item">
+                        <strong>Address:</strong><br/>
+                        Roppongi Hills Mori Tower 16F 6-10-1<br/>Roppongi, Minato-ku Tokyo 106-6116,<br/>Japan
+                    </div>
+                    <div class="info-item">
+                        <strong>Japan Phone/Fax:</strong><br/>+81-3-6772-3723
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Footer -->
-    <footer class="dark-section text-center py-3">
-        <p>Copyright &copy; Jewaluka Inc. All Rights Reserved.</p>
+    <footer class="dark-section py-3">
+        <p class="container" style="font-size: 19px; font-style: italic;">Copyright &copy; Jewaluka Inc. All Rights Reserved.</p>
     </footer>
 
     <!-- Bootstrap JS -->
