@@ -454,15 +454,13 @@
         });
 
         const typewriter = new Typewriter('#typing', {
-            loop: true,
+            loop: false,
             delay: 25,
             delete_speed: 1999
         });
 
         typewriter
             .typeString('We continue to grow with our clients and create new value. As your partner, Jewaluka is committed to pioneering a future filled with unlimited potential, moving forward together with you.')
-            .pauseFor(5000)
-            .deleteAll()
             .start();
                 
             $(document).ready(function() {
